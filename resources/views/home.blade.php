@@ -2,13 +2,13 @@
 
 @section('content')
 
-<h1>
+<h1 class="title">
     film fantastici
 </h1>
     
 <div class="container">
     @foreach ($movies as $singleMovies)
-    <div class="card">
+    <div class="card_structure">
         <div class="all-card">
           <h5 class="card-text"> {{$singleMovies->title}}</h5>
           <h6 class="card-second-text"> {{$singleMovies->original_title}}</h6>
